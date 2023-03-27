@@ -33,7 +33,7 @@ export const NavBar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="m-auto">
                         <Nav.Link 
                             href="#home" 
                             className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} 
