@@ -234,6 +234,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+/************ Experience Css ************/
+experience p h2 {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3.5rem;
+  margin-bottom: 7px;
+  margin-top: 0px;
+  text-align: center;
+}
 
 /************ Banner Css ************/
 .banner {
