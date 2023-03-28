@@ -26,15 +26,15 @@ export default function SoftwareSkill() {
             </div>
             <div className='skills-emoji'>
                 {emoji(
-                    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+                    "Develop highly interactive Front end / User Interfaces for your web and mobile applications"
                 )}
             </div>
             <div className='skills-emoji'>
-                {emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")}
+                {emoji("Progressive Web Applications ( PWA ) in normal and SPA Stacks")}
             </div>
             <div className='skills-emoji'>
                 {emoji(
-                    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+                    "Integration of third party services such as Firebase/ AWS / Digital Ocean"
                 )}
             </div>
         </div>
