@@ -25,9 +25,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import java from "./company/java.png";
+import truvisory from "./company/truvisory.png";
+import stevens from "./company/stevens.png";
+
 
 import carrent from "./carrent.png";
+import imagerecognizer from "./imagerecognizer.png";
 import jobit from "./jobit.png";
+import mediadownloader from "./mediadownloader.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -56,7 +62,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  java,
+  truvisory,
+  stevens,
   carrent,
+  imagerecognizer,
   jobit,
+  mediadownloader,
   tripguide,
 };

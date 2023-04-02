@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
-import { slideIn } from '../utils/motion'; 
+import { slideIn } from '../utils/motion';
 
 export const Contact = () => {
     const formRef = useRef();
@@ -32,16 +32,16 @@ export const Contact = () => {
     
         emailjs
           .send(
-            import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-            import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+            "service_f0qjj9j",
+            "template_ry4hk2u",
             {
               from_name: form.name,
-              to_name: "JavaScript Mastery",
+              to_name: "Tarun Chawla",
               from_email: form.email,
-              to_email: "sujata@jsmastery.pro",
+              to_email: "tc.chawla2000@gmail.com",
               message: form.message,
             },
-            import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+            "Fs9afkKLs4b28x8PK"
           )
           .then(
             () => {
@@ -66,7 +66,7 @@ export const Contact = () => {
     return (
         <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
             <motion.div
-                variants={slideIn("left", "tween", 0.2, 1)}
+                variants={slideIn("left", "tween", 0.2, 3)}
                 className='flex-[0.75] bg-black-80 p-8 rounded-2xl'
             >
                 <p className={styles.sectionSubText} style={{ "padding-left": 0, "list-style": "none", "font-size": "30px", "margin-bottom": "7px", "margin-top": "0px", "text-align": "center" }}>Get in touch</p>
@@ -101,7 +101,7 @@ export const Contact = () => {
                         name="email"
                         value={form.email}
                         onChange={handleChange}
-                        placeholder="example@example.com"
+                        placeholder="jane@example.com"
                         className='bg-tertiary py-3 px-6
                         placeholder:text-secondary 
                         text-white 

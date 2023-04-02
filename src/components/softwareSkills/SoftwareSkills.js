@@ -1,13 +1,14 @@
 import React from 'react';
 import "./SoftwareSkills.scss";
 import { skillsSection } from "../../portfolio";
+import { styles } from '../../styles';
 import emoji from "react-easy-emoji";
 
 export default function SoftwareSkill() {
     return (
         <div>
-            <div className='skills-title'>What I do</div>
-            <div className='skills-subtitle'>Full Stack Developer</div>
+            <div className={styles.sectionSubText} style={{ "padding-left": 0, "list-style": "none", "font-size": "20px", "margin-bottom": "0px", "margin-top": "0px", "text-align": "center" }}>What Skills I have as a</div>
+            <div className={styles.sectionHeadText} style={{ "padding-left": 0, "list-style": "none", "font-size": "3.5rem", "margin-bottom": "20px", "margin-top": "0px", "text-align": "center" }}>Software Developer</div>
             <div className='software-skills-main-div'>
                 <ul className='dev-icons'>
                     {skillsSection.softwareSkills.map((softwareSkills, i) => {

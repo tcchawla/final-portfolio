@@ -19,10 +19,15 @@ import {
     starbucks,
     tesla,
     shopify,
+    java,
+    truvisory,
     carrent,
+    imagerecognizer,
     jobit,
+    mediadownloader,
     tripguide,
     threejs,
+    stevens,
   } from "../assets";
   
   export const navLinks = [
@@ -116,55 +121,51 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Java Application Developer",
+      company_name: "Trivia Softwares",
+      icon: java,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2019 - Sept 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed RESTful and SOAP-based web services using J2EE technologies such as Spring Boot, Hibernate, and JDBC.",
+        "Collaborated effectively with cross-functional teams and implemented continuous integration, delivery using Jenkins and Git, for faster product delivery and increased quality.",
+        "Implemented TDD development approach and automated testing frameworks using Selenium and BDD, resulting in 50% reduction in bug reports.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Data Analyst Intern",
+      company_name: "Truvsiory",
+      icon: truvisory,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2020 - July 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Accomplished 7% increase in profits by Predictive Analysis leveraging Machine Learning algorithms for improved accuracy.",
+        "Constructed SQL queries to extract and manipulate data from databases, leading to a 25% increase in efficiency of data retrieval and analysis.",
+        "Produced interactive dashboards in PowerBI and Excel, enabling stakeholders to visualize data trends and insights, resulting in more informed decision-making.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Developer",
+      company_name: "Truvisory",
+      icon: truvisory,
+      iconBg: "#383E56",
+      date: "July 2020 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Deployed REST API connectivity with microservices using Python led to 30% reduction in client requests processing.",
+        "Utilized Docker, AWS EC2 to automate SDLC of a web app implemented via TypeScript, NextJS, NodeJS and React.",
+        "Applied Git for version control and collaboration, achieving seamless integration and 50% reduction in code conflicts.",
+      ],
+    },
+    {
+      title: "Teaching Assistant",
+      company_name: "Stevens Institute of Technology",
+      icon: stevens,
+      iconBg: "#383E56",
+      date: "Aug 2022 - Present",
+      points: [
+        "Streamlined & managed over 30 teams of 150+ students spanning whole semester, provided proper assistance and correct feedback.",
+        "Mentored students by conducting one-on-one sessions to better understand student’s strengths, weakness, and interests.",
+        "Graded the assignment, quizzes and provided proper assistance, feedback for stronger understanding of the topic.",
       ],
     },
   ];
@@ -198,67 +199,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Image Recognizer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An ML application to recognize drawn image and predicting objects with CoreMLTools binding into MLModel for SwiftUI, Keras with an accuracy of 89% through data cleaning, normalization.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "deeplearning",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "swift",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: imagerecognizer,
+      source_code_link: "https://github.com/tcchawla/Number-Recognizer-Swift",
     },
     {
-      name: "Job IT",
+      name: "Echo",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Full Stack Social Media application with real-time search engine, worked on client-side design, user sign-in page, UI experience by applying Express, React, Redux, MongoDB with CRUD operations on profiles.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/tcchawla/Echo---MERN",
     },
     {
-      name: "Trip Guide",
+      name: "Media Downloader",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Python Application to stream/download any media online with best video quality, best audio employing DASH Stream, audio output is processed/mixed through FFmpeg to enhance overall quality.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "ffmpeg",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "cli",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mediadownloader,
+      source_code_link: "https://github.com/tcchawla/media-downloader",
     },
   ];
   

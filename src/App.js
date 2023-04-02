@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
@@ -8,7 +8,6 @@ import { Contact } from './components/Contact';
 import Main from "./containers/Main";
 import { StarsCanvas } from "./components/canvas";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 
 function App() {
