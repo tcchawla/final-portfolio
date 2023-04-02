@@ -54,7 +54,7 @@ export const NavBar = () => {
                         <Nav.Link 
                             href="#contact"
                             className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} 
-                            onClick={() => onUpdateActiveLink('contact')}
+                            onClick={() => window.scrollTo(0, document.body.scrollHeight)}
                         >Contact</Nav.Link>
                         
                     </Nav>

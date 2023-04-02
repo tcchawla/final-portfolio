@@ -27,15 +27,15 @@ export default function SoftwareSkill() {
             </div>
             <div className='skills-emoji'>
                 {emoji(
-                    "Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+                    "Proficient in Python and Java with experience in developing Complex Web Services using Java and large ML models using PyTorch and Keras for predictive analytics."
                 )}
             </div>
             <div className='skills-emoji'>
-                {emoji("Progressive Web Applications ( PWA ) in normal and SPA Stacks")}
+                {emoji("Experienced in developing and deploying applications on AWS using Docker, Kubernetes, and Jenkins for continuous integration and deployment.")}
             </div>
             <div className='skills-emoji'>
                 {emoji(
-                    "Integration of third party services such as Firebase/ AWS / Digital Ocean"
+                    "Experienced in database management with expertise in SQL and NoSQL databases like PostgreSQL, MongoDB, and DynamoDB."
                 )}
             </div>
         </div>
