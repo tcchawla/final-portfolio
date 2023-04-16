@@ -24,6 +24,13 @@ Finally when all these steps are completed.
 - Step 4: Run `npm start` <br />
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Or Run via Docker
+```bash
+docker pull tarunchawla36/react-portfolio
+docker run --rm -it --name website -p 3000:80 -v $(pwd):/code tarunchawla36/react-portfolio
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 Congrats! You can now make your own stunning portfolio by changing a few things according to your need.
 
 Feel free to contribute if you find any open issue and raise a pull request. 
