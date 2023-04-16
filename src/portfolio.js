@@ -1,4 +1,4 @@
-import emoji from "react-easy-emoji";
+// import emoji from "react-easy-emoji";
 
 const skillsSection = {
     skills: [

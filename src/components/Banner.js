@@ -16,6 +16,7 @@ export const Banner = () => {
             tick();
         }, delta)
         return () => clearInterval(ticker);
+        // eslint-disable-next-line
     }, [text])
 
     const tick = () => {
