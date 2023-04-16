@@ -1,0 +1,20 @@
+How to run the code of this application?
+
+If you are going from github first, fork and clone the project locally.
+
+git clone <https://github.com/tcchawla/final-portfolio.git>
+cd <project>
+
+npm install
+npm start
+
+If you are going to run it through Docker, do following steps:
+    Having project locally:
+        docker compose up 
+            OR
+        docker build -t <image_name> .
+        docker run --rm -it --name <container_name> -p 3000:80 -v $(pwd):/code <image_name>
+
+    You want to run without having project locally:
+        docker pull tarunchawla36/react-portfolio
+        docker run --rm -it --name <container_name> -p 3000:80 -v $(pwd):/code tarunchawla36/react-portfolio
