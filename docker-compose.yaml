@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  final-portfolio:
+    build: .
+    container_name: website_container
+    ports:
+      - "3000:80"
+    volumes:
+      - .:/code
+      - /code/node_modules
