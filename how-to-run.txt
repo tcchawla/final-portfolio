@@ -18,3 +18,7 @@ If you are going to run it through Docker, do following steps:
     You want to run without having project locally:
         docker pull tarunchawla36/react-portfolio
         docker run --rm -it --name <container_name> -p 3000:80 -v $(pwd):/code tarunchawla36/react-portfolio
+        
+        OR
+        
+        docker run --name some-website -p 3000:80 -d tarunchawla36/react-portfolio go to https://localhost:3000/
