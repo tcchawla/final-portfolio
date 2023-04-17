@@ -26,8 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Or Run via Docker
 ```bash
-docker pull tarunchawla36/react-portfolio
-docker run --rm -it --name website -p 3000:80 -v $(pwd):/code tarunchawla36/react-portfolio
+docker run --name some-website -p 3000:80 -d tarunchawla36/react-portfolio
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
