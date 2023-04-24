@@ -24,3 +24,8 @@ If you are going to run it through Docker, do following steps:
         docker run --name some-website -p 3000:80 -d tarunchawla36/react-portfolio go to https://localhost:3000/
 
 Running this project is easy.
+
+
+Review by Jayesh:
+Hey Tarun, 
+Your portfolio is awesome!
