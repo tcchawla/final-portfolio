@@ -17,6 +17,7 @@ import {
     docker,
     java,
     truvisory,
+    mindsdb,
     imagerecognizer,
     jobit,
     mediadownloader,
@@ -115,27 +116,15 @@ import {
   
   const experiences = [
     {
-      title: "Java Application Developer",
-      company_name: "Trivia Softwares",
-      icon: java,
+      title: "Open Source Contributor",
+      company_name: "MindsDB",
+      icon: mindsdb,
       iconBg: "#383E56",
-      date: "July 2019 - Sept 2019",
+      date: "Aug 2022 - Present",
       points: [
-        "Developed RESTful and SOAP-based web services using J2EE technologies such as Spring Boot, Hibernate, and JDBC.",
-        "Collaborated effectively with cross-functional teams and implemented continuous integration, delivery using Jenkins and Git, for faster product delivery and increased quality.",
-        "Implemented TDD development approach and automated testing frameworks using Selenium and BDD, resulting in 50% reduction in bug reports.",
-      ],
-    },
-    {
-      title: "Data Analyst Intern",
-      company_name: "Truvsiory",
-      icon: truvisory,
-      iconBg: "#383E56",
-      date: "Jan 2020 - July 2020",
-      points: [
-        "Accomplished 7% increase in profits by Predictive Analysis leveraging Machine Learning algorithms for improved accuracy.",
-        "Constructed SQL queries to extract and manipulate data from databases, leading to a 25% increase in efficiency of data retrieval and analysis.",
-        "Produced interactive dashboards in PowerBI and Excel, enabling stakeholders to visualize data trends and insights, resulting in more informed decision-making.",
+        "Led the development of a new integration for MindsDB, utilizing the Slack API to seamlessly connect to Slack workspaces leveraging Git, Docker.",
+        "Designed and implemented a new handler via Python, SQL, CLI to enable users to leverage MindsDB's OpenAI or Hugging Face integrations to automate tasks such as writing and responding to messages, answering questions, and posting announcements.",
+        "Enhanced team communication and collaboration by enabling easy access to powerful AI capabilities through the Slack integration OpenAI.",
       ],
     },
     {
@@ -151,17 +140,29 @@ import {
       ],
     },
     {
-      title: "Teaching Assistant",
-      company_name: "Stevens Institute of Technology",
-      icon: stevens,
+      title: "Data Analyst Intern",
+      company_name: "Truvsiory",
+      icon: truvisory,
       iconBg: "#383E56",
-      date: "Aug 2022 - Present",
+      date: "Jan 2020 - July 2020",
       points: [
-        "Streamlined & managed over 30 teams of 150+ students spanning whole semester, provided proper assistance and correct feedback.",
-        "Mentored students by conducting one-on-one sessions to better understand student’s strengths, weakness, and interests.",
-        "Graded the assignment, quizzes and provided proper assistance, feedback for stronger understanding of the topic.",
+        "Accomplished 7% increase in profits by Predictive Analysis leveraging Machine Learning algorithms for improved accuracy.",
+        "Constructed SQL queries to extract and manipulate data from databases, leading to a 25% increase in efficiency of data retrieval and analysis.",
+        "Produced interactive dashboards in PowerBI and Excel, enabling stakeholders to visualize data trends and insights, resulting in more informed decision-making.",
       ],
     },
+    {
+      title: "Java Application Developer",
+      company_name: "Trivia Softwares",
+      icon: java,
+      iconBg: "#383E56",
+      date: "July 2019 - Sept 2019",
+      points: [
+        "Developed RESTful and SOAP-based web services using J2EE technologies such as Spring Boot, Hibernate, and JDBC.",
+        "Collaborated effectively with cross-functional teams and implemented continuous integration, delivery using Jenkins and Git, for faster product delivery and increased quality.",
+        "Implemented TDD development approach and automated testing frameworks using Selenium and BDD, resulting in 50% reduction in bug reports.",
+      ],
+    }, 
   ];
   
   const testimonials = [

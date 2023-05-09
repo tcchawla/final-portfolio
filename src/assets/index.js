@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 import java from "./company/java.png";
 import truvisory from "./company/truvisory.png";
 import stevens from "./company/stevens.png";
+import mindsdb from "./company/mindsdb_photo.png";
 
 
 import carrent from "./carrent.png";
@@ -64,6 +65,7 @@ export {
   tesla,
   java,
   truvisory,
+  mindsdb,
   stevens,
   carrent,
   imagerecognizer,
