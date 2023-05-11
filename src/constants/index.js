@@ -120,7 +120,7 @@ import {
       company_name: "MindsDB",
       icon: mindsdb,
       iconBg: "#383E56",
-      date: "Aug 2022 - Present",
+      date: "April 2023 - Present",
       points: [
         "Led the development of a new integration for MindsDB, utilizing the Slack API to seamlessly connect to Slack workspaces leveraging Git, Docker.",
         "Designed and implemented a new handler via Python, SQL, CLI to enable users to leverage MindsDB's OpenAI or Hugging Face integrations to automate tasks such as writing and responding to messages, answering questions, and posting announcements.",
