@@ -35,6 +35,7 @@ import carrent from "./carrent.png";
 import imagerecognizer from "./imagerecognizer.png";
 import jobit from "./jobit.png";
 import mediadownloader from "./mediadownloader.png";
+import slack from "./slack.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -71,5 +72,6 @@ export {
   imagerecognizer,
   jobit,
   mediadownloader,
+  slack,
   tripguide,
 };

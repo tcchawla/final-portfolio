@@ -20,9 +20,8 @@ import {
     mindsdb,
     imagerecognizer,
     jobit,
-    mediadownloader,
     threejs,
-    stevens,
+    slack,
   } from "../assets";
   
   export const navLinks = [
@@ -116,15 +115,17 @@ import {
   
   const experiences = [
     {
-      title: "Open Source Contributor",
+      title: "Snowflake Integration Maintainer",
       company_name: "MindsDB",
       icon: mindsdb,
       iconBg: "#383E56",
-      date: "April 2023 - Present",
+      date: "June 2023 - Present",
       points: [
-        "Led the development of a new integration for MindsDB, utilizing the Slack API to seamlessly connect to Slack workspaces leveraging Git, Docker.",
-        "Designed and implemented a new handler via Python, SQL, CLI to enable users to leverage MindsDB's OpenAI or Hugging Face integrations to automate tasks such as writing and responding to messages, answering questions, and posting announcements.",
-        "Enhanced team communication and collaboration by enabling easy access to powerful AI capabilities through the Slack integration OpenAI.",
+        "Maintaining and supporting the Snowflake integration for MindsDB, ensuring proper functionality and extensive documentation.",
+        "Building new releases periodically on the Snowflake integration based on the community feedback to improve the product insights.",
+        "Providing technical expertise and troubleshooting integration-related queries to assist the community over GitHub, Slack.",
+        "Curating Technical Blogs, Tutorials around the new/existing integrations developed by the community members.",
+        "Collaborating with teams to improve existing integrations, address feedback, and ensure seamless connectivity for the users.",
       ],
     },
     {
@@ -194,6 +195,27 @@ import {
   
   const projects = [
     {
+      name: "Slack Integration",
+      description:
+        "Implemented a new Slack integration for MindsDB, using Slack API to connect to Workspaces, built with Python to enable users to leverage MindsDB's OpenAI integrations to automate tasks such as writing, responding to messages, and posting announcements.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "git",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: slack,
+      source_code_link: "https://github.com/mindsdb/mindsdb/pull/5894",
+    },
+    {
       name: "Image Recognizer",
       description:
         "An ML application to recognize drawn image and predicting objects with CoreMLTools binding into MLModel for SwiftUI, Keras with an accuracy of 89% through data cleaning, normalization.",
@@ -234,27 +256,6 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/tcchawla/Echo---MERN",
-    },
-    {
-      name: "Media Downloader",
-      description:
-        "A Python Application to stream/download any media online with best video quality, best audio employing DASH Stream, audio output is processed/mixed through FFmpeg to enhance overall quality.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ffmpeg",
-          color: "green-text-gradient",
-        },
-        {
-          name: "cli",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: mediadownloader,
-      source_code_link: "https://github.com/tcchawla/media-downloader",
     },
   ];
   
