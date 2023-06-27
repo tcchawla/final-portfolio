@@ -27,6 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "mv build /home/ubuntu",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
