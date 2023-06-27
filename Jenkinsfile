@@ -12,7 +12,7 @@ pipeline {
         stage('Push') {
             steps {
                 echo 'Push'
-                sh "aws s3 cp build s3://s3-react-jenkins-pipe"
+                sh "aws s3 cp /home/ubuntu/build s3://s3-react-jenkins-pipe"
             }
         }
         stage('Deploy') {
