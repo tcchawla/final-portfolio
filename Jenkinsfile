@@ -19,7 +19,7 @@ pipeline {
         stage('Push') {
             steps {
                 echo 'Push'
-                sh "zip build.zip index.js"
+                sh "zip -r build.zip build"
                 sh "aws s3 cp ./build.zip s3://s3-react-jenkins-pipe"
             }
         }
