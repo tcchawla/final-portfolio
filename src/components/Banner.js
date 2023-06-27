@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+// import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
@@ -57,7 +57,7 @@ export const Banner = () => {
                             onClick={() => {
                                 window.open('https://www.linkedin.com/in/tarun-c')
                             }}
-                        >Let's Connect! <ArrowRightCircle size={25} /> 
+                        >Let's Connect!
                         </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
