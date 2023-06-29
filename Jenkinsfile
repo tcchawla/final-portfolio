@@ -1,11 +1,10 @@
 pipeline {
-    agent {label 'slave'}
+    agent any
 
     stages {
         stage('Build') {
             steps {
                 echo 'Build'
-                sh "sudo su -"
                 sh "npm ci --production"
                 sh "npm run build"
             }
