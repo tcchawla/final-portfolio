@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build'
-                sh "sudo -S -u ubuntu whoami"
+                sh "echo "slave" | sudo -S -u ubuntu whoami"
                 sh "npm ci --production"
                 sh "npm run build"
             }
