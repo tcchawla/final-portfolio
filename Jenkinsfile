@@ -1,5 +1,5 @@
 pipeline {
-    agent {label slave}
+    agent {label "slave"}
 
     environment {
         function_name="test-func-react"
