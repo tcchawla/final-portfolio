@@ -1,12 +1,11 @@
 pipeline {
-    agent { label 'slave' }
+    agent any
 
 
     stages {
         stage('Build') {
             steps {
                 echo 'Build'
-                sh "echo 'slave' | sudo su -S jenkins"
                 sh "npm ci --production"
                 sh "npm run build"
             }
