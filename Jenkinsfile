@@ -1,12 +1,5 @@
 pipeline {
-    agent {label "slave"}
-
-    environment {
-        function_name="test-func-react"
-        region_name="us-east-1"
-        bucket_name="s3-react-jenkins-pipe"
-        bucket_key="build.zip"
-    }
+    agent { label 'slave' }
 
     stages {
         stage('Build') {
