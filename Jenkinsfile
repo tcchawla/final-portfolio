@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label slave}
 
     environment {
         function_name="test-func-react"
@@ -19,14 +19,12 @@ pipeline {
         stage('Push') {
             steps {
                 echo 'Push'
-                sh "zip -r build.zip build"
-                sh "aws s3 cp ./build.zip s3://s3-react-jenkins-pipe"
+                sh "aws s3 sync build/ s3://jenkins-slave-push"
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploy'
-                sh "aws lambda update-function-code --function-name $function_name --region $region_name --s3-bucket $bucket_name --s3-key $bucket_key"
             }
         }
     }
