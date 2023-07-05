@@ -64,7 +64,7 @@ export const NavBar = () => {
                         target="_blank"
                         style={{ maxWidth: "250px" }}
                     >
-                        &nbsp;Downloaded CV
+                        &nbsp;Download CV
                     </Button>
                     <span className="navbar-text">
                         <div className="social-icon">
