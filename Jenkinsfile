@@ -1,45 +1,23 @@
 pipeline {
-    agent any
+    agent {label 'slave'}
 
     stages {
         stage('Build') {
             steps {
                 echo 'Build'
+                sh "npm ci --production"
+                sh "npm run build"
             }
         }
-        stage('Test') {
+        stage('Push') {
             steps {
-                echo 'Test'
+                echo 'Push'
+                sh "aws s3 sync build/ s3://jenkins-slave-push"
             }
         }
-        stage('Sonar Scan') {
+        stage('Deploy') {
             steps {
-                echo 'Scan'
-            }
-        }
-        stage('Release') {
-            steps {
-                echo 'Release'
-            }
-        }
-        stage('Deploy to Dev') {
-            steps {
-                echo 'Deploy to Dev'
-            }
-        }
-        stage('Deploy to Test') {
-            steps {
-                echo 'Deploy to Test'
-            }
-        }
-        stage('Deploy to Stage') {
-            steps {
-                echo 'Deploy to Stage'
-            }
-        }
-        stage('Deploy to Prod') {
-            steps {
-                echo 'Deploy to Prod'
+                echo 'Deploy'
             }
         }
     }
