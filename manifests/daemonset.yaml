@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: reactappdemo
+  namespace: react-ns
+  labels:
+    app: reactappdemo
+spec:
+  selector:
+    matchLabels:
+      app: reactappdemo
+  template:
+    metadata:
+      labels:
+        app: reactappdemo
+    spec:
+      containers:
+      - name: fluentd
+        image: fluent/fluentd:v1.13.3-debian-1.0
