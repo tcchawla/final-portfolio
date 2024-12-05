@@ -28,13 +28,15 @@ import tesla from "./company/tesla.png";
 import java from "./company/java.png";
 import truvisory from "./company/truvisory.png";
 import stevens from "./company/stevens.png";
+import mindsdb_photo from "./company/mindsdb.png";
 import mindsdb from "./company/mindsdb_photo.png";
-
+import qrev from "./company/qrev-photo.png";
 
 import carrent from "./carrent.png";
 import imagerecognizer from "./imagerecognizer.png";
 import jobit from "./jobit.png";
 import mediadownloader from "./mediadownloader.png";
+import etcd from "./etcd.avif";
 import slack from "./slack.png";
 import tripguide from "./tripguide.png";
 
@@ -67,11 +69,14 @@ export {
   java,
   truvisory,
   mindsdb,
+  qrev,
   stevens,
   carrent,
   imagerecognizer,
   jobit,
   mediadownloader,
   slack,
+  mindsdb_photo,
+  etcd,
   tripguide,
 };
