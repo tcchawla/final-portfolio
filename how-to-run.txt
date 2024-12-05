@@ -10,7 +10,7 @@ npm start
 
 If you are going to run it through Docker, do following steps:
     Having project locally:
-        docker compose up 
+        docker compose up
             OR
         docker build -t <image_name> .
         docker run --rm -it --name <container_name> -p 3000:80 -v $(pwd):/code <image_name>
@@ -18,14 +18,10 @@ If you are going to run it through Docker, do following steps:
     You want to run without having project locally:
         docker pull tarunchawla36/react-portfolio
         docker run --rm -it --name <container_name> -p 3000:80 -v $(pwd):/code tarunchawla36/react-portfolio
-        
+
         OR
-        
-        docker run --name some-website -p 3000:80 -d tarunchawla36/react-portfolio go to https://localhost:3000/
+
+        docker run --name some-website -p 3000:80 -d tarunchawla36/react-portfolio
+        go to https://localhost:3000/
 
 Running this project is easy.
-
-
-Review by Jayesh:
-Hey Tarun, 
-Your portfolio is awesome!

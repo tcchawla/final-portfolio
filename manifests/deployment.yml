@@ -6,7 +6,7 @@ metadata:
   labels:
     app: reactappdemo
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: reactappdemo
@@ -37,6 +37,17 @@ spec:
                 operator: In
                 values:
                 - frontend
+        podAntiAffinity: 
+          preferredDuringSchedulingIgnoredDuringExecution: 
+          - weight: 100  
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: security 
+                  operator: In 
+                  values:
+                  - S2
+              topologyKey: kubernetes.io/hostname
       containers:
       - name: reactappdemo
         image: portfolioreact.azurecr.io/reactdemo:0.1.0
